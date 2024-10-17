@@ -1,0 +1,156 @@
+/* NAVBAR */
+.navbar .container-fluid{
+    padding: 1.4rem 7%;
+    background-color: #fdd835;
+    border-bottom: 1px solid #F2DD72;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav-item .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar .container-fluid img{
+    width: 20%;
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    left: 30px;
+    margin: 5px 0 0 0;
+    /* top: 60%; */
+    transform: translateY(-50%);
+}
+
+.home-section{
+    margin-top: 5rem;
+}
+
+.about {
+    padding: 4rem 7% 1.4rem;
+}
+
+.img-about img{
+    max-width: 80%;
+    height: auto;
+}
+
+.features .card {
+    background-color: #ffcc00;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fdd835; /* Background kuning saat terbuka */
+    color: black;
+  }
+
+  .testimonials h1 {
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-card h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.testimonial-card .stars {
+    margin: 15px 0;
+}
+
+.testimonial-card .star {
+    font-size: 20px;
+}
+
+.testimonial-card .star.full {
+    color: #ffcc00;
+}
+
+.testimonial-card .star.empty {
+    color: #ccc;
+}
+
+.testimonial-card .testimonial-text {
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #ddd;
+}
+
+.contact .row form {
+    padding: 2rem;
+
+}
+
+.contact .row form .input-group input {
+    padding: 2rem;
+    background-color: black; 
+}
+
+.placeholder-white::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.contact .row form .input-group input:focus {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.container .row .slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .row .slider-wrapper{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.container .row  .card{
+    min-width: 300px;
+    margin: 0 10px;
+    background-color: #ffcc00;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container .row .slider-wrapper .card-body .badge{
+    color: #000;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #fff;
+    width: fit-content;
+    border-radius: 50px;
+}

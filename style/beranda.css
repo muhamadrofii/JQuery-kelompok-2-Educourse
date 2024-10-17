@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .container-fluid{
+    padding: 1.4rem 7%;
+    background-color: #fdd835;
+    border-bottom: 1px solid #F2DD72;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav-item .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar .container-fluid img{
+    width: 20%;
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.hero-section {
+    margin-top: 6rem;
+}
+  
+.container-learning {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-learning h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.container-learning .class-card {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Untuk Firefox */
+    -ms-overflow-style: none;  /* Untuk Internet Explorer dan Edge */
+}
+
+.container-learning .class-card ::-webkit-scrollbar {
+    display: none; /* Untuk Chrome */
+}
+
+
+.container-learning .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.container-learning .card img {
+    width: 10rem;
+    margin-bottom: 15px;
+}
+
+.container-learning .card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    width: 80%;
+    min-height: 48px;
+}
+
+.container-learning .card p {
+    color: #666;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: left;
+    width: 80%;
+}
+
+.container-learning .card p i {
+    margin-right: 5px;
+    color: #666666;
+}
+
+.container-learning .card a {
+    margin-top: 15px;
+}
+  
