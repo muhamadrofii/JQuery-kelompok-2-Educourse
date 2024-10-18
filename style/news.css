@@ -6,20 +6,25 @@ body {
   }
 
   .navbar .container-fluid{
-    padding: 1.4rem 7%;
-    background-color: rgba(255, 244, 171, 0.8);
-    border-bottom: 1px solid #F2DD72;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+      padding: 1.4rem 7%;
+      background-color: #ffffff;
+      border-bottom: 2px solid #F2DD72;
+      position: fixed;
+      top: 0;
+      z-index: 9999;
   }
+
+  .nav-item .nav-link:hover {
+    color: black;
+
+}
+  
 
   .navbar .container-fluid img{
     width: 20%;
     position: absolute;
-    left: 20px;
-    margin: 0;
-    top: 60%;
+    left: 30px;
+    margin: 5px 0 0 0;
     transform: translateY(-50%);
   }
 

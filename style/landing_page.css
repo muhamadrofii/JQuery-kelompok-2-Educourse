@@ -1,26 +1,24 @@
-/* NAVBAR */
 .navbar .container-fluid{
     padding: 1.4rem 7%;
-    background-color: #fdd835;
-    border-bottom: 1px solid #F2DD72;
+    background-color: #ffffff;
+    border-bottom: 2px solid #F2DD72;
     position: fixed;
     top: 0;
     z-index: 9999;
 }
 
 .nav-item .nav-link:hover {
-    color: #ffffff;
+  color: black;
+
 }
 
+
 .navbar .container-fluid img{
-    width: 20%;
-    position: absolute;
-    left: 20px;
-    margin: 0;
-    left: 30px;
-    margin: 5px 0 0 0;
-    /* top: 60%; */
-    transform: translateY(-50%);
+  width: 20%;
+  position: absolute;
+  left: 30px;
+  margin: 5px 0 0 0;
+  transform: translateY(-50%);
 }
 
 .home-section{
@@ -37,8 +35,24 @@
 }
 
 .features .card {
-    background-color: #ffcc00;
-}
+    background-image: linear-gradient(to bottom, #fbcf1f, #efd673);
+  }
+
+
+  .card-features {
+    height: 100%;
+  }
+
+  .card-body-features {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 
 .accordion-button:not(.collapsed) {
     background-color: #fdd835; /* Background kuning saat terbuka */
@@ -153,7 +167,7 @@
 }
 
 .btn-login {
-    background-color: #ff6600; /* Warna oranye */
+    background-color: #ff0048;/* Warna oranye */
     color: white;
 }
 
