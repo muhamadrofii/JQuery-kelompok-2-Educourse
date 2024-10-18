@@ -1,5 +1,5 @@
 # Javascript Kelompok 2 Educourse
-Penggunakan Javascript ke dalam kode tugas sebelumnya
+Penggunakan jQuery dan layout ke dalam kode tugas sebelumnya
 
 
 # Anggota Kelompok :

@@ -82,11 +82,13 @@
         // Mengambil nilai dari input email dan password
         var email = $('#email').val();
         var password = $('#password').val();
-        
+        console.log(email); 
+
         // Cek apakah email atau password kosong
         if (email === '' || password === '') {
-          $('#cekemail-notification').text('Email atau password tidak boleh kosong!').fadeIn();
-  
+          // $('#cekemail-notification').text('Email atau password tidak boleh kosong!').fadeIn();
+          alert("Data jangan kosong");
+
           // Membuat notifikasi tetap tampil selama 3 detik sebelum menghilang
           setTimeout(function() {
             $('#cekemail-notification').fadeOut();

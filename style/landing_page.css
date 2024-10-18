@@ -124,24 +124,21 @@
 }
 
 .container .row .slider{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+    overflow-x: auto;  /* Mengizinkan scroll secara horizontal */
+    display: flex;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Untuk scroll yang halus di perangkat mobile */
 }
 
 .container .row .slider-wrapper{
     display: flex;
-    transition: transform 0.5s ease;
+    flex-wrap: nowrap; /* Membuat konten tidak berpindah ke baris berikutnya */
 }
 
 .container .row  .card{
-    min-width: 300px;
-    margin: 0 10px;
-    background-color: #ffcc00;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-    border-radius: 8px;
+    min-width: 300px; /* Lebar minimum setiap card, bisa disesuaikan */
+    margin-right: 20px; /* Spasi antar kartu */
 }
 
 .container .row .slider-wrapper .card-body .badge{
@@ -153,4 +150,19 @@
     background: #fff;
     width: fit-content;
     border-radius: 50px;
+}
+
+.btn-login {
+    background-color: #ff6600; /* Warna oranye */
+    color: white;
+}
+
+.btn-register {
+    background-color: #ff0048; /* Warna biru */
+    color: white;
+}
+
+/* Menghilangkan scrollbar di perangkat desktop (opsional) */
+.slider::-webkit-scrollbar {
+    display: none;
 }

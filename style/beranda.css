@@ -4,8 +4,8 @@ body {
 
 .navbar .container-fluid{
     padding: 1.4rem 7%;
-    background-color: #fdd835;
-    border-bottom: 1px solid #F2DD72;
+    background-color: #ffffff;
+    /* border-bottom: 1px solid #F2DD72; */
     position: fixed;
     top: 0;
     z-index: 9999;
@@ -22,6 +22,41 @@ body {
     margin: 0;
     top: 60%;
     transform: translateY(-50%);
+}
+
+
+.carousel-inner {
+    display: flex;
+    width: 900px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.carousel-inner img{
+    border-radius: 3%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-hero {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 10%;
+    padding: 10px 20px;
+    background-color: #fdd835;
+    margin: 10px;
+}
+
+.card-hero-item {
+    margin: auto;
 }
 
 .hero-section {
@@ -95,4 +130,37 @@ body {
 .container-learning .card a {
     margin-top: 15px;
 }
-  
+
+.bg-yellow-gradient {
+    /* background-image: linear-gradient(to bottom, #ffcc00, #f6e5a1); */
+    background-image: linear-gradient(to bottom, #fbcf1f, #efd673);
+    color: black;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+.alert-red {
+    color: red;
+}
+.card-subscribe {
+    /* padding: 10px; Reduce padding for smaller size */
+    max-width: 18rem; /* Limit the card width */
+    margin: auto;
+}
+.card-footer-subscribe {
+    padding: 10px; /* Reduce footer-subscribe padding */
+}
+.title-subscribe {
+    font-size: 1.2rem; /* Smaller heading */
+
+}
+.h2-subscribe {
+    font-size: 1.5rem; /* Smaller price text */
+}
+.item-subscribe {
+    font-size: 0.9rem; /* Smaller list text */
+}
+.btn-subscribe {
+    background-color: #f3d354;
+    font-weight: 650;
+}  
