@@ -1,5 +1,6 @@
 # Javascript Kelompok 2 Educourse
-Penggunakan jQuery dan layout ke dalam kode tugas sebelumnya
+Penggunakan jQuery dan layout ke dalam kode [tugas sebelumnya](https://github.com/muhamadrofii/Javascript-kelompok-2-Educourse)
+
 
 
 # Anggota Kelompok :
